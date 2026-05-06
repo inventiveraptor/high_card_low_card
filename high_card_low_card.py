@@ -27,59 +27,59 @@ while cont[0] == "y" or cont[0] == "Y":
 
     #convert player card: 
     if player_card == 2:
-        player_card = "Two"
+        player_card = "Two of"
     elif player_card == 3:
-        player_card = "Three"
-    elif player_card == 4: 
-        player_card = "Four"
+        player_card = "Three of"
+    elif player_card == 4:
+        player_card = "Four of"
     elif player_card == 5:
-        player_card = "Five"
+        player_card = "Five of"
     elif player_card == 6:
-        player_card = "Six"
+        player_card = "Six of"
     elif player_card == 7:
-        player_card = "Seven"
+        player_card = "Seven of"
     elif player_card == 8:
-        player_card = "Eight"
+        player_card = "Eight of"
     elif player_card == 9:
-        player_card = "Nine"
+        player_card = "Nine of"
     elif player_card == 10:
-        player_card = "Ten"
+        player_card = "Ten of"
     elif player_card == 11:
-        player_card = "Jack"
+        player_card = "Jack of"
     elif player_card == 12:
-        player_card = "Queen"
+        player_card = "Queen of"
     elif player_card == 13:
-        player_card = "King"
+        player_card = "King of"
     elif player_card == 14:
-        player_card = "Ace"
+        player_card = "Ace of"
 
     #convert computer card value 
     if computer_card == 2:
-        computer_card = "Two of "
+        computer_card = "Two of"
     elif computer_card == 3:
-        computer_card = "Three of "
+        computer_card = "Three of"
     elif computer_card == 4: 
-        computer_card = "Four of "
+        computer_card = "Four of"
     elif computer_card == 5:
-        computer_card = "Five of "
+        computer_card = "Five of"
     elif computer_card == 6:
-        computer_card = "Six of "
+        computer_card = "Six of"
     elif computer_card == 7:
-        computer_card = "Seven of "
+        computer_card = "Seven of"
     elif computer_card == 8:
-        computer_card = "Eight of "
+        computer_card = "Eight of"
     elif computer_card == 9:
-        computer_card = "Nine of "
+        computer_card = "Nine of"
     elif computer_card == 10:
-        computer_card = "Ten of "
+        computer_card = "Ten of"
     elif computer_card == 11:
-        computer_card = "Jack of "
+        computer_card = "Jack of"
     elif computer_card == 12:
-        computer_card = "Queen of "
+        computer_card = "Queen of"
     elif computer_card == 13:
-        computer_card = "King of "
+        computer_card = "King of"
     elif computer_card == 14:
-        computer_card = "Ace of "
+        computer_card = "Ace of"
 
     print(f"Computer drew the {computer_card} {computer_suit}...")
     time.sleep(2)
