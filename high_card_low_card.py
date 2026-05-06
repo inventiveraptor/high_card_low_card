@@ -112,4 +112,3 @@ print("")
 print("Final score:")
 print(f"Player: {player_score}\nComputer: {computer_score}")
 
-# new stuff now 
